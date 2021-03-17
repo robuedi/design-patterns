@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\api\v1\strategy\PaymentController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -21,5 +22,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 
 Route::prefix('v1')->group(function (){
-    Route::post('/payment', [NumeralsController::class, 'convertRoman']);
+    Route::post('/pay', [PaymentController::class, 'pay']);
 });
