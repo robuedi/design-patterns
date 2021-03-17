@@ -1,6 +1,6 @@
 # Design patterns - Laravel
 
-## Strategy pattern
+### Strategy pattern
 - app/Http/Controllers/api/v1/strategy
 
 ## Setting up Docker
@@ -15,4 +15,4 @@ Run ```docker-compose up -d``` inside the root folder of your Laravel project (m
 
 Comment the ```PMA_USER``` and ```PMA_PASSWORD``` lines from the ```phpmyadmin``` service if you want to disable auto-login when opening the ```phpmyadmin``` in the browser.
 
-## Enjoy by Eduard Robu!
+#### Enjoy by Eduard Robu!
