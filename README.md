@@ -1,6 +1,6 @@
 # Design patterns - Laravel
 
-### Strategy pattern
+#### Strategy pattern
 - app/Http/Controllers/api/v1/strategy
 
 ## Setting up Docker
